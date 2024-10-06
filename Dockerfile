@@ -16,4 +16,4 @@ COPY . .
 
 ENTRYPOINT ["python", "-u"]
 
-CMD ["phase1.py"]
+CMD ["phase2.py"]
