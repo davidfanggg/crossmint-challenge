@@ -17,6 +17,7 @@ The following make commands are available to build and run the application:
 - `make phase1` - (Disabled) Runs the main application logic for phase 1. This command is disabled as it would modify the map for phase 2.
 - `make phase2` - Runs the main application logic for phase 2.
 - `make tests` - Executes the unit tests in the Docker container.
+- `make clean` - Clean up stopped and dangling containers.
 
 ## Notes for Reviewers
 
