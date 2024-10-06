@@ -14,7 +14,7 @@ The application has been dockerized for easier execution. Only two prerequisites
 The following make commands are available to build and run the application:
 
 - `make build` - Builds the Docker image for the application.
-- `make phase1` - (Disabled) This command is not available as it would modify the map for phase 2.
+- `make phase1` - (Disabled) Runs the main application logic for phase 1. This command is disabled as it would modify the map for phase 2.
 - `make phase2` - Runs the main application logic for phase 2.
 - `make tests` - Executes the unit tests in the Docker container.
 
